@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Header from '../lib/components/Header.svelte';
+    import Footer from '../lib/components/Footer.svelte';
+    import PredictionForm from '../lib/components/PredictionForm.svelte';
+  </script>
+  
+  <main class="container mx-auto px-4">
+    <Header />
+    <PredictionForm />
+    <Footer />
+  </main>
